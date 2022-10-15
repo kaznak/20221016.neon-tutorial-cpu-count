@@ -1,7 +1,7 @@
 {
   "name": "cpu-count",
   "version": "0.1.0",
-  "description": "",
+  "description": "neon tutorial",
   "main": "index.node",
   "scripts": {
     "build": "cargo-cp-artifact -nc index.node -- cargo build --message-format=json-render-diagnostics",
@@ -10,7 +10,7 @@
     "install": "npm run build-release",
     "test": "cargo test"
   },
-  "author": "",
+  "author": "kaznak <kaznak.at.work@ipebble.org>",
   "license": "MIT",
   "devDependencies": {
     "cargo-cp-artifact": "^0.1"
